@@ -1,0 +1,10 @@
+{
+  "id": "infinityfix",
+  "name": "Infinity Fix",
+  "description": "Fixes the Infinity Enchant",
+  "version": "${version}",
+  "side": "universal",
+  "mixins": {
+    "common": "infinityfix.common.json"
+  }
+}
