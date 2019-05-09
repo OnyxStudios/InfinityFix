@@ -18,4 +18,3 @@ public class MixinEnchantmentTarget {
         }
     }
 }
-//method_8177

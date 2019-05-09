@@ -1,10 +1,27 @@
 {
+  "schemaVersion": 1,
   "id": "infinityfix",
   "name": "Infinity Fix",
   "description": "Fixes the Infinity Enchant",
-  "version": "${version}",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Radient_Sora",
+      "contact": {
+        "homepage": "https://twitter.com/Radient_Sora"
+      }
+    }
+  ],
+  "contributors": [
+    "UpcraftLP"
+  ],
+  "icon": "assets/infinityfix/icon.png",
   "side": "universal",
-  "mixins": {
-    "common": "infinityfix.common.json"
-  }
+  "version": "${version}",
+  "mixins": [
+    {
+      "enviroment": "*",
+      "config": "mixins.infinityfix.common.json"
+    }
+  ]
 }

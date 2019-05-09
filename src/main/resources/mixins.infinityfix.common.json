@@ -1,12 +1,13 @@
 {
   "required": true,
   "package": "nerdhub.infinityfix",
+  "minVersion": "0.7.11",
   "plugin": "nerdhub.infinityfix.MixinConfig",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinBaseBowItem",
-    "MixinEnchantmentTarget",
-    "MixinEnchantmentTargetDev"
+    "MixinPlayerEntity",
+    "MixinEnchantmentTargetDev",
+    "MixinEnchantmentTarget"
   ],
   "injectors": {
     "defaultRequire": 1
