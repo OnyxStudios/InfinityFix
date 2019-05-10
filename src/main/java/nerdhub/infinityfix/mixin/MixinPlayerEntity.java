@@ -1,4 +1,4 @@
-package nerdhub.infinityfix;
+package nerdhub.infinityfix.mixin;
 
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
