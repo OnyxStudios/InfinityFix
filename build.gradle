@@ -1,17 +1,18 @@
 plugins {
-	id 'fabric-loom' version '0.2.2-SNAPSHOT'
-    id "com.matthewprenger.cursegradle" version "1.2.0"
+	id 'fabric-loom' version '0.2.5-SNAPSHOT'
+    id "com.matthewprenger.cursegradle" version "1.4.0"
     id "maven-publish"
 }
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
 
+group = "com.github.NerdHubMC"
 archivesBaseName = "infinityfix"
 version = project.release_version
 
 minecraft {
-    
+
 }
 
 repositories {
@@ -23,10 +24,10 @@ dependencies {
     mappings "net.fabricmc:yarn:${yarn_mappings}"
     modCompile "net.fabricmc:fabric-loader:${loader_version}"
     compileOnly "com.google.code.findbugs:jsr305:3.0.2"
-    
+
 }
 
-apply from: "https://raw.githubusercontent.com/NerdHubMC/Gradle-Scripts/master/scripts/fabric/basic_project.gradle"
+//apply from: "https://raw.githubusercontent.com/NerdHubMC/Gradle-Scripts/master/scripts/fabric/basic_project.gradle"
 
 
 processResources {
@@ -46,5 +47,3 @@ processResources {
         exclude "fabric.mod.json"
     }
 }
-
-

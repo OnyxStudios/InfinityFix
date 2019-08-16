@@ -1,13 +1,13 @@
 {
-  "required": true,
-  "package": "nerdhub.infinityfix.mixin",
-  "minVersion": "0.7.11",
-  "compatibilityLevel": "JAVA_8",
-  "mixins": [
-    "MixinPlayerEntity",
-    "MixinEnchantment"
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  }
+    "required": true,
+    "package": "nerdhub.infinityfix.mixin",
+    "minVersion": "0.7.11",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "MixinPlayerEntity",
+        "MixinInfinityEnchantment"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
 }
